@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto7.MainPage"
+             Title="Home" BackgroundColor="Transparent">
+    <Grid>
+        <Label Text="Proyecto 7 animaciones" HorizontalOptions="Center" FontFamily="8bitOperatorPlus8-Bold" FontSize="Title" x:Name="label1" TextColor="White"/>
+        <Image Source="hollow.jpg" Aspect="AspectFill" x:Name="img1"/>
+        <VerticalStackLayout Padding="35" Spacing="10">
+            <Button Text="Pagina 1" Clicked="btPag1" Background="#FFFFFF" TextColor="Black" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold" x:Name="bt1"/>
+            <Button Text="Pagina 2" Clicked="btPag2" Background="#FFFFFF" TextColor="Black" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold" x:Name="bt2"/>
+            <Button Text="Pagina 3" Clicked="btPag3" Background="#FFFFFF" TextColor="Black" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold" x:Name="bt3"/>
+            <Button Text="Pagina 4" Clicked="btPag4" Background="#FFFFFF" TextColor="Black" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold" x:Name="bt4"/>
+            <Button Text="Pagina 5" Clicked="btPag5" Background="#FFFFFF" TextColor="Black" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold" x:Name="bt5"/>
+            <Button Text="Firma" Clicked="btFirma" Background="#FFFFFF" TextColor="Black" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold" x:Name="bt6"/>
+            <Button Text="Animacion" Clicked="btani" Background="#FFFFFF" TextColor="Black" BackgroundColor="White" BorderColor="Black" BorderWidth="10"
+                    FontAttributes="Bold" FontSize="18" FontFamily="8bitOperatorPlus8-Bold" x:Name="bta"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
